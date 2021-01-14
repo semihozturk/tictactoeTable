@@ -1,0 +1,31 @@
+body {
+    padding: 3em;
+    text-align: center;
+}
+/*
+The clear is only used to put the element to the next "row."
+*/
+
+div.row div {
+    height: 100px;
+    width: 100px;
+}
+div:not(.row) { /*all divs except class:row */
+    float: left;
+}
+.row {
+    width: 302px; /*extra 2 pics for the 2 vertical borders which im going to add */
+
+}
+.top {
+    border-bottom: 1px solid black; /*all top classes will have bottom border */
+}
+.bottom {
+    border-top: 1px solid black;
+}
+.left {
+    border-right: 1px solid black;
+}
+.right {
+    border-left: 1px solid black;
+}
